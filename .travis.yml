@@ -10,7 +10,7 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - pep8 
+  - pep8 . 
 notifications:
   slack: jooyoung1:sNjcLpW6BIiN0qq1sV6q1lyF
 
